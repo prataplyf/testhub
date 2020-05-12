@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+{% block contents %}
+   <form method = "POST" class="formstyle">
+            <fieldset id="borderfrom">
+            <table>
+                <tr><td>Email</td></tr>
+                <tr><td> <input type ="text" name = "useremail" placeholder="Enter Email" required /></td></tr>
+                <tr><td>Password</td></tr>
+                <tr><td> <input type ="text" name = "userpassword" placeholder="Enter Password" required /></td></tr>
+
+                <tr><td><input type = "submit" value = "Login" /></td></tr>
+            </table>
+            </fieldset>
+      </form>
+    </form>
+{% endblock %}

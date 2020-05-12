@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+{% block contents %}
+    <form class="main_form" method = "POST">
+        <div class=''>
+            <p><font color='#aaa000'> {{ '-'*20 }} Account Details  </font></p>
+            <p>Click here for  <a href="{{ url_for('wshubregister') }}">Wharf Street Hub Registration</a> Yourself</p>
+        </div>
+        <div class=''>
+            <p>Click here for <a href="{{ url_for('wshublogin') }}">Wharf Street Hub Login</a> Profile</p>
+        </div>
+        <div class=''>
+            <p>Click here for <a href="{{ url_for('wshublogin') }}">Google Login</a> Profile</p>
+        </div>
+
+    </form>
+{% endblock contents %}
