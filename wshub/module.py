@@ -2,9 +2,9 @@
 import time
 import time as t
 # @@@@@@@@@@@@@@@@@@@ Sendinblue module End @@@@@@@@@@@@@@@@@@@@@@@@@
-import sib_api_v3_sdk
-from sib_api_v3_sdk.rest import ApiException
-from pprint import pprint
+# import sib_api_v3_sdk
+# from sib_api_v3_sdk.rest import ApiException
+# from pprint import pprint
 # @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 # call database
 from wshub import config
